@@ -1,43 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Página de Login</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css"> 
-    </head>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assests/styles/styles.css"> 
+</head>
+
 <body>
-    <body>
-        <div class="container">
-            <div class="image-section">
-                <img src="assests/imagens/logo.png" alt="Illustration">
-            </div>
-            <div class="login-section">
-                <h1>Bem-vindo de volta</h1>
-                <p>Faça login na sua conta</p>
-                <div id="message" class="message"></div> 
-                <form id="loginForm"> 
-                    <input type="email" id="email" placeholder="E-mail" required>
-                    <input type="password" id="password" placeholder="Senha" required>
-                    <div class="options">
-                        <label>
-                            <input type="checkbox"> Lembrar de mim
-                        </label>
-                        <a href="#" class="link-blue">Esqueceu sua senha?</a>
-                    </div>
-                    <button type="submit" class="login-btn">Entrar na conta</button>
-                    <div class="google-login">
-                        <img src="img/9af128e66ac7d6d0e573cad6385214d3.png" alt="Google Logo" width="20">
-                        <span>Ou faça login com o Google</span>
-                    </div>
-                </form>
-    
-                <div class="create-account">
-                    <a href="#" class="link-blue">Não tem uma conta? Cadastre-se</a>
+    <div class="container">
+        <div class="image-section">
+            <img src="assests/imagens/logo.png" alt="Illustration">
+        </div>
+        <div class="login-section">
+            <h1>Bem-vindo de volta</h1>
+            <p>Faça login na sua conta</p>
+            <div id="message" class="message"></div> 
+            <form id="loginForm"> 
+                <input type="email" id="email" placeholder="E-mail" required>
+                <input type="password" id="password" placeholder="Senha" required>
+                <div class="options">
+                    <label>
+                        <input type="checkbox"> Lembrar de mim
+                    </label>
+                    <a href="#" class="link-blue">Esqueceu sua senha?</a>
                 </div>
+                <button type="submit" class="login-btn">Entrar na conta</button>
+                <div class="google-login">
+                    <img src="assests/imagens/google.png" alt="Google Logo" width="20">
+                    <span>Ou faça login com o Google</span>
+                </div>
+            </form>
+
+            <div class="create-account">
+                <a href="#" class="link-blue">Não tem uma conta? Cadastre-se</a>
             </div>
         </div>
-        <script src="js/script.js"></script>
-    </body>
-    </html>
+    </div>
+    <script src="assests/scripts/main.js"></script>
+</body>
+
+</html>
